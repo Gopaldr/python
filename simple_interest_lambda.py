@@ -1,0 +1,5 @@
+amount=int(input("enter the amount:"))
+interest=int(input("enter interest:"))
+time=int(input("enter the time:"))
+result=lambda amount,interest,time:print((amount*interest*time)/100)
+result(amount,interest,time)
