@@ -1,0 +1,7 @@
+#Class Method w/o Parameter
+class Mobile:
+    @classmethod
+    def show_model(cls):
+        print("RealMe X")
+realme=Mobile()
+Mobile.show_model()
